@@ -2,8 +2,10 @@
 module.exports = {
   content: ['./*html'],
   theme: {
-    colors: {
-      'eggShell': '#f3e6d8'
+    extend: {
+      fontFamily:{
+        'young-serif': ['Young Serif', 'serif']
+      }
     },
   },
   plugins: [],
