@@ -11,53 +11,47 @@
    <div class="flex flex-col justify-start min-h-screen bg-eggshell">
    
     <!-- Card Container -->
-    <div class=" w-full md:w-[48rem] lg:w-[62rem] min-h-screen mx-auto md:rounded-xl md:mt-[3rem] md:mb-[3rem] bg-white  border-2 border-red-500 md:border-black lg:border-orange-500">
+    <div class=" w-full md:w-[48rem] lg:w-[62rem] min-h-screen mx-auto md:rounded-xl md:mt-[3rem] md:mb-[3rem] bg-white  ">
 
 
-      <img src="images/image-omelette.jpeg" alt="" class="mx-auto md:mt-6 md:w-[90%] md:rounded-lg">
+      <img src="images/image-omelette.jpeg" alt="" class="mx-auto md:mt-[3rem] md:w-[90%] md:rounded-lg">
 
       <!-- Heading container -->
-       <div class="w-[86%] md:w-[42rem] lg:w-[54rem] mt-7 mx-auto">
-          <h1 class="text-4xl md:text-5xl font-young-serif">Simple Omelette Recipe</h1>
+       <div class="w-[85%] md:w-[42rem] lg:w-[54rem] mt-7 mx-auto">
+          <h1 class="text-4xl md:text-5xl font-young-serif font-extrabold">Simple Omelette Recipe</h1>
        </div>
 
 
       <!-- Paragraph Container -->
-      <div class="w-[86%] md:w-[42rem] lg:w-[54rem] mx-auto  mt-4">
+      <div class="w-[85%] md:w-[42rem] lg:w-[54rem] mx-auto  mt-[2rem] ">
           
-        <p class="text-[1.2rem] md:text-[16px] lg:text-[22px]">
+        <p class="text-[15px] md:text-[16px] lg:text-[22px]">
           An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetable or, meats.                                                                                         
         </p>
       </div>
 
         
         <!-- Preparation Time Container -->
-        <div class="w-[75%] md:w-[39rem] lg:w-[50rem] mx-auto mt-4 p-8 text-lg border-4 border-yellow-500 bg-rose-white rounded-lg">
+        <div class="w-[85%] md:w-[42rem] lg:w-[53rem] mx-auto mt-[2rem] p-[2.1rem] text-lg bg-rose-white rounded-lg">
           
-          <div class="w-[200px] ml-[-1.5rem]">
+          <div class="w-[200px] ml-[-0.375rem]">
             <h3 class="pb-4 text-[1.1rem] text-dark-raspberry font-bold">Preparation time</h3>
           </div>
 
 
-        <!-- Changes Css bullet points to red. tailwind deletes it from the css file when i save it, figure out how to add css custom properties in tailwind -->
-          <!-- .first-list li::marker {
-            color: red;
-          } -->
-
-
-          <ul class="list-disc w-[95%] text-[.8rem] pr-2 mx-auto">
-            <li class="pl-2 leading-[1rem]"><span class="font-extrabold">Total</span>: Approximately 10 minutes</li>
-            <li class="pl-2"><span class="font-extrabold">Preparation</span>: 5 minutes</li>
-            <li class="pl-2"><span class="font-extrabold">Cooking</span>: 5 minutes</li>
+          <ul class="first-list  list-disc w-[95%] text-[.8rem] pr-[2.5rem] mx-auto">
+            <li class="pl-[1.2rem] leading-[1rem]"><span class="font-extrabold">Total</span>: Approximately 10 minutes</li>
+            <li class="pl-[1.2rem]"><span class="font-extrabold">Preparation</span>: 5 minutes</li>
+            <li class="pl-[1.2rem]"><span class="font-extrabold">Cooking</span>: 5 minutes</li>
           </ul>
         </div>
 
         <!-- Ingredients Container -->
-         <div class="w-[84%]  md:w-[88%] mt-4 mx-auto mb-4 text-wenge-brown font-bold  border-2 border-red-500">
+         <div class="w-[75%] mx-auto md:w-[88%] mt-[1.5rem] mb-[1.4rem]">
  
-          <h2 class="text-[1.5rem]">Ingredients</h2>
+          <h2 class="text-[1.9rem]  text-wenge-brown  font-bold font-young-serif">Ingredients</h2>
 
-          <ul class="list-disc ml-1 list-outside leading-[1.5]">
+          <ul class="list-disc ml-[1.1rem] leading-[1.8rem] mt-[.9rem] text-dark-charcoal  marker:text-wenge-brown">
             <li class="pl-[1.2rem]">2-3 large eggs</li>
             <li class="pl-[1.2rem]">Salt, to taste</li>
             <li class="pl-[1.2rem] ">Pepper, to taste</li>
@@ -66,20 +60,20 @@
           </ul>
          </div>
 
-         <hr>
+         <hr class="w-[90%] mx-auto bg-light-grey">
 
          <!-- Instructions Container -->
-         <div class="w-[81%] md:w-[86%] mx-auto mt-4  md:mb-[3rem] border-2 border-blue-500 leading-6">
-           <h2 class="text-[1.6rem]">Instructions</h2>
+         <div class="w-[76%] md:w-[86%] mx-auto mt-[2rem] mb-[2rem]  md:mb-[3rem] leading-6  text-dark-charcoal">
+           <h2 class="text-[2rem]  text-wenge-brown  font-bold font-young-serif ">Instructions</h2>
 
-
-           <ol class="list-decimal list-outside mt-2 text-[1rem]">
+ 
+           <ol class="list-decimal  mt-[1.4rem]  pl-[1.1rem] text-[.9rem] marker:text-wenge-brown marker:font-extrabold">
             
             <li class="pl-4 mb-[.8rem]"><span class="font-extrabold">Beat the eggs</span>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
 
             <li class="pl-4 mb-[.8rem]"> <span class="font-extrabold">Heat the pan</span>: Place a non-sticking frying pan over medium heat add butter or oil.</li>
             
-            <li class="pl-4 mb-[.8rem]"><span class="font-extrabold">Cook the omelette</span>: Once the butter is melted and bubbling, pour eggs. Tilt the pan to ensure the eggs evenly coated the surface.</li>
+            <li class="pl-4 mb-[.8rem]"><span class="font-extrabold">Cook the omelette</span>: Once the butter is melted and bubbling, pour eggs. Tilt the pan to ensure the eggs evenly coat the surface.</li>
             
             <li class="pl-4 mb-[.8rem]"><span class="font-extrabold">Adding fillings(optional)</span>: When the eggs being to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
 
@@ -90,35 +84,35 @@
 
          </div>
 
-         <hr>
+         <hr class="w-[90%] mx-auto bg-light-grey">
 
          <!-- Nutrition Section -->
-         <div class="w-[81%]  mx-auto mt-4 mb-20  border-4 border-red-500">
-            <h2 class="text-[1.6rem]">Nutrition</h2>
+         <div class="w-[79%]  mx-auto mt-[1.3rem] mb-20 ">
+            <h2 class="text-[1.9rem]  text-wenge-brown  font-bold font-young-serif ">Nutrition</h2>
 
-            <p class="mt-2 mb-2 text-[.9rem]">The table below shows nutritional values per serving without the additional fillings.</p>
-
+            <p class="mt-2 mb-[1.5rem] text-[.8rem] w-[89%]">The table below shows nutritional values per serving without the additional fillings.</p>
+ 
             <!-- Table Container -->
-            <table class=" mx-auto  w-[90%] mb-4">
+            <table class="mx-auto  w-[100%] mb-4">
               
-              <tr class="text-[.9rem] border-2 border-b-black border-t-white border-r-white border-l-white">
-                <td>Calories</td>
-                <td>277kcal</td>
+              <tr class="text-[.9rem] border border-b-[.2rem]  border-b-slate-200 border-t-white border-r-white border-l-white">
+                <td class="pl-4  pb-2 text-dark-charcoal">Calories</td>
+                <td class="text-wenge-brown  pb-2 font-extrabold">277kcal</td>
               </tr>
               
-              <tr class="text-[.9rem] border-2 border-b-black border-t-white border-r-white border-l-white">
-                <td>Carbs</td>
-                <td>0g</td>
+              <tr class="text-[.9rem] border border-b-[.2rem] border-b-slate-200 border-t-white border-r-white border-l-white">
+                <td class="pl-4  pb-2  pt-2  text-dark-charcoal">Carbs</td>
+                <td class="text-wenge-brown  pb-2 pt-2 font-extrabold">0g</td>
               </tr>
 
-              <tr class="text-[.9rem] border-2 border-b-black border-t-white border-r-white border-l-white">
-                <td>Protien</td>
-                <td>20g</td>
+              <tr class="text-[.9rem] border border-b-[.2rem] border-b-slate-200 border-t-white border-r-white border-l-white">
+                <td class="pl-4 pt-2  pb-2 text-dark-charcoal">Protien</td>
+                <td class="text-wenge-brown pt-2  pb-2 font-extrabold">20g</td>
               </tr>
             
               <tr class="text-[.9rem] border-2 border-b-white border-t-white border-r-white border-l-white">
-                <td>Fat</td>
-                <td>22sg</td>
+                <td class="pl-4 pt-2 text-dark-charcoal">Fat</td>
+                <td class="text-wenge-brown  pt-2 font-extrabold">22sg</td>
               </tr>
         
             </table>

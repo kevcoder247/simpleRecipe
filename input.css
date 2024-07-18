@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.first-list li::marker {
+  color: hsl(332, 51%, 32%);
+}
